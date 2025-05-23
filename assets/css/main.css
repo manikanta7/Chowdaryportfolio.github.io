@@ -2861,6 +2861,19 @@ input, select, textarea {
 			width: 3rem;
 		}
 
+	a.scrolly {
+      text-decoration: none;
+      color: #333;
+      font-family: monospace;
+      font-size: 1.2em;
+      margin: 0 20px;
+      transition: color 0.3s ease;
+    }
+
+    a.scrolly:hover {
+      color: #007bff;
+    }
+
 /* Gallery */
 
 	@-moz-keyframes gallery-modal-spinner {
